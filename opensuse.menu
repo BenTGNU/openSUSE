@@ -1,0 +1,11 @@
+MENU BEGIN OPENBSD
+MENU TITLE OpenBSD 6.4
+MENU LABEL ^OpenBSD 6.4
+MENU BACKGROUND er/plugins/openbsd/openbsd.png
+
+MENU INCLUDE er/plugins/opensuse/i386/opensusemain.menu
+MENU INCLUDE er/plugins/opensuse/x86_64/opensusemain.menu
+
+# ------====> Back <====------
+MENU INCLUDE er/menu/shared/menu-back.module
+MENU END

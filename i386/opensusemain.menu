@@ -1,0 +1,8 @@
+LABEL OPENSUSE32
+MENU LABEL ^openSUSE - i386
+KERNEL er/plugins/opensuse/i386/linux
+INITRD er/plugins/opensuse/i386/initrd
+APPEND splash=silent vga=0x314 showopts install=http://download.opensuse.org/factory/repo/oss/
+TEXT HELP
+				Install an enterprise class GNU/Linux
+ENDTEXT

@@ -1,0 +1,8 @@
+LABEL OPENSUSE64
+MENU LABEL ^openSUSE - x86_64
+KERNEL er/plugins/opensuse/x86_64/linux64
+INITRD er/plugins/opensuse/x86_64/initrd64
+APPEND splash=silent vga=0x314 showopts install=http://download.opensuse.org/factory/repo/oss/
+TEXT HELP
+				Install an enterprise class GNU/Linux
+ENDTEXT
